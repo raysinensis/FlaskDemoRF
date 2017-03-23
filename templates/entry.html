@@ -1,0 +1,23 @@
+<!doctype html>
+<title>stock query</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+<div class=page>
+  <h1>stock query</h1>
+  <div class=metanav>
+
+    <h4>
+      Enter a stock ticker to plot closing prices in the past month, eg. GOOG, IBM, etc
+    </h4>
+
+    <form id='userinput' method='post' action='index' >
+      <p>
+    Ticker: <input type='text' name='name' />
+      </p>
+      <p>
+    <input type='Submit' value='Submit' />
+      </p>
+    </form>
+
+  </div>
+</div>
+</html>
